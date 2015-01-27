@@ -107,8 +107,6 @@ public class MaterialDialog extends DialogBase implements View.OnClickListener {
             mBuilder.backgroundColor = DialogUtils.resolveColor(mBuilder.context, R.attr.md_background_color);
         if (mBuilder.backgroundColor != 0)
             this.view.setBackgroundColor(mBuilder.backgroundColor);
-        
-        Log.d("syc", "mBuilder.backgroundColor="+mBuilder.backgroundColor);
 
         mBuilder.positiveColor = DialogUtils.resolveColor(mBuilder.context, R.attr.md_positive_color, mBuilder.positiveColor);
         mBuilder.neutralColor = DialogUtils.resolveColor(mBuilder.context, R.attr.md_negative_color, mBuilder.neutralColor);
