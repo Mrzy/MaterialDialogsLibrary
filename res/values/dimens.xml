@@ -1,7 +1,7 @@
 <resources>
     <!-- See http://www.google.com/design/spec/components/dialogs.html#dialogs-specs -->
     <!-- Margin around the dialog, excluding the button bar -->
-    <dimen name="md_dialog_frame_margin">24dp</dimen>
+    <dimen name="md_dialog_frame_margin">0dp</dimen>
     <dimen name="md_title_frame_margin_bottom">16dp</dimen>
     <dimen name="md_title_frame_margin_bottom_list">4dp</dimen>
     <dimen name="md_button_min_width">42dp</dimen>
